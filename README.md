@@ -5,5 +5,5 @@ a test with go tags
 ## Install
 
 ```sh
-go install TimoG-WI/go-version-demo@latest
+go install github.com/TimoG-WI/go-version-demo@latest
 ```
