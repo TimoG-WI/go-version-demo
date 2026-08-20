@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"runtime/debug"
 )
 
@@ -29,6 +30,6 @@ func Version() string {
 	return "unknown"
 }
 
-func main(){
+func main() {
 	fmt.Println("You are running version:", Version())
 }
